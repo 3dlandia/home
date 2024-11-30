@@ -1,6 +1,6 @@
 /* Estilo para la imagen principal */
 img#main-image {
-  width: 100%;         /* Hace que la imagen ocupe todo el ancho disponible */
+  width: 150px;         /* Hace que la imagen ocupe todo el ancho disponible */
   max-width: 300px;    /* Limita el tamaño máximo a 300px */
   height: auto;        /* Mantiene las proporciones originales de la imagen */
   display: block;      /* Asegura que la imagen se muestre correctamente */
@@ -8,9 +8,9 @@ img#main-image {
 }
 
 /* Media Queries para dispositivos móviles */
-@media (max-width: 768px) {
+@media (max-width: 150px) {
   img#main-image {
-    max-width: 250px;   /* Ajusta el tamaño máximo de la imagen en pantallas más pequeñas */
+    max-width: 150px;   /* Ajusta el tamaño máximo de la imagen en pantallas más pequeñas */
   }
 }
 
